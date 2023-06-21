@@ -8,3 +8,7 @@ I noticed that when reading from the `/employee/{id}` endpoint, the direct repor
 There seem to be numerous incorrect Logging messages in the Employee Controller and Employee Service, this can cause issues when debugging. Would be an easy fix but not specified in the challenge- would most likely be an issue to be resolved with a patch.
 
 ## Task 2
+Implemented new endpoints `/compensation` (to create) and `/compensation/{id}` for read operations. New entities are persisted to MongoDB and can be retrieved.
+
+## Tests
+Tests for both tasks are included.
