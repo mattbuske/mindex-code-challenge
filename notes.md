@@ -20,7 +20,6 @@ I have enhanced this project beyond the scope (for fun) to allow for docker cont
 - [X] Bump Gradle Version to 7.3
 - [ ] Add the OpenAPI 3.0 Spec
 - [ ] Enhance and optimize code
-- [ ] Seperate out the MondoDB to a seperate container and utilize docker compose to run both in a small cluster
 - [ ] Implement MkDocs documentation to improve readability and accessibility for the project
 - [ ] Add github actions to automate certain aspects of the repository
     - [X] Add Automatic releases based on tags
