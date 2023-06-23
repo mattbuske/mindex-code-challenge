@@ -12,3 +12,18 @@ Implemented new endpoints `/compensation` (to create) and `/compensation/{id}` f
 
 ## Tests
 Tests for both tasks are included.
+
+## Enhancements
+I have enhanced this project beyond the scope (for fun) to allow for docker containerization and included documentation and re-created the spec of the rest API in Open API 3. This list is a living list and is subject to change!
+
+- [X] Add the ability to build the final jar file into a docker container
+- [X] Bump Gradle Version to 7.3
+- [ ] Add the OpenAPI 3.0 Spec
+- [ ] Enhance and optimize code
+- [ ] Seperate out the MondoDB to a seperate container and utilize docker compose to run both in a small cluster
+- [ ] Implement MkDocs documentation to improve readability and accessibility for the project
+- [ ] Add github actions to automate certain aspects of the repository
+    - [ ] Add Automatic releases
+    - [ ] Add Automatic unit tests
+    - [ ] Add Automatic build of the JAR file if the tests pass
+    - [ ] Add Automatic build of Docker Image if the tests pass
