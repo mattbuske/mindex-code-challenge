@@ -23,7 +23,7 @@ I have enhanced this project beyond the scope (for fun) to allow for docker cont
 - [ ] Seperate out the MondoDB to a seperate container and utilize docker compose to run both in a small cluster
 - [ ] Implement MkDocs documentation to improve readability and accessibility for the project
 - [ ] Add github actions to automate certain aspects of the repository
-    - [ ] Add Automatic releases
+    - [X] Add Automatic releases based on tags
     - [ ] Add Automatic unit tests
     - [ ] Add Automatic build of the JAR file if the tests pass
     - [ ] Add Automatic build of Docker Image if the tests pass
